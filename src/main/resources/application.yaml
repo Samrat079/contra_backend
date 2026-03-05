@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: Contra_backend
+  mongodb:
+    uri: ${MONGO_URL}
+    auto-index-creation: true
